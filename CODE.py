@@ -36,7 +36,7 @@ def patientquestionaireer():
 
     clearance_level = input("Please enter your clearance level here: ")
     if clearance_level=="1":
-        print("You are allowed to add a patient record or search for a patinet record")
+        print("You are allowed to add a patient record or search for a patient record")
         option_one = input("Enter 'A', or 'B': ")
         if option_one.upper()=="A":
             name_or_ID = input("Enter 'C' if you would like to seach using a last name or 'D' to search with ID number: ")
