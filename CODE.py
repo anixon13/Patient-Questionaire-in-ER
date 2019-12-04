@@ -133,7 +133,7 @@ def patientquestionaireer():
             print(list_heart_rate)
             print(list_blood_pressure)
             print(list_blood_type)
-            print(list_waiting_time)
+            print(list_occupancy_time)
         else:
             print("That is an invalid input, please read the instructions and try again ")
             pass
